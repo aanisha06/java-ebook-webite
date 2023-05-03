@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" );
+html{
+	font-size: 75%;
+}
+
+
+.container{
+	position:relative;
+	width:100vw;
+	height:auto;
+	display: flex;
+/* 	top:20px; */
+    justify-content: center;
+}
+
+
+.title-name{
+	position:absolute;
+	display: flex;
+    justify-content: center;
+	height:auto;
+	width:360px;
+	padding:5px;
+	margin-top:340px;
+	margin-right:200px;
+}
+
+
+
+.title{
+	text-align:center;
+	width:360px;
+	height:auto;
+}
+
+
+.chapter-name{
+	position:absolute;
+	display: flex;
+    justify-content: center;
+    margin-top:30px;	height:100px;
+	width:auto;
+	padding:5px;
+	margin-right:200px;
+		border: 1px solid #f4f4f4;
+	box-shadow: 3px 3px 3px 3px #f4f4f4;
+}
+
+.chapter{
+	width:660px;
+		text-align:center;
+		height:400px;
+}
+
+.content-area{
+	position:absolute;
+	display: flex;
+    justify-content: center;
+    margin-top:420px;
+	height:auto;
+	width:660px;
+	border: 1px solid #f4f4f4;
+	box-shadow: 3px 3px 3px 3px #f4f4f4;
+	padding:5px;
+}
+
+.content{
+	width:660px;
+	height:auto;
+	white-space: pre-wrap;
+}
+
+.read{
+	margin-left:300px;
+	margin-top:200px;
+}
+
+.read .addtolib{
+	margin-left:-20px;
+	margin-top:60px;
+}
